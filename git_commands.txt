@@ -1,0 +1,19 @@
+git clone repo_url
+
+cd repo_name
+
+ls #(list of files in repo)
+
+git status #(status of repo)
+
+git add file_name #(to add file into stagging area)
+
+git reset HEAD file_name #(to unstage file)
+
+git commit -m 'message' #(to commit files from stagging area locally, -m is optinal to add message)
+
+git log #(log of all commit history)
+
+git push #(push code to github)
+
+ 
