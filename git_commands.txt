@@ -16,4 +16,8 @@ git log #(log of all commit history)
 
 git push #(push code to github)
 
+git difftool HEAD #(difference b/w previous and current version of file in stagging area) OR
+git diff <file_name> #(in linux.. befor adding to stagging area) OR
+git diff --cached <file_name> #(in linux.. after adding to stagging area)
+
  
