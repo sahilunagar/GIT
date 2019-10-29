@@ -6,18 +6,18 @@ ls #(list of files in repo)
 
 git status #(status of repo)
 
-git add file_name #(to add file into stagging area)
+git add file_name #(to add file into staging area)
 
 git reset HEAD file_name #(to unstage file)
 
-git commit -m 'message' #(to commit files from stagging area locally, -m is optinal to add message)
+git commit -m 'message' #(to commit files from staging area locally, -m is optinal to add message)
 
 git log #(log of all commit history)
 
 git push #(push code to github)
 
-git difftool HEAD #(difference b/w previous and current version of file in stagging area) OR
-git diff <file_name> #(in linux.. befor adding to stagging area) OR
-git diff --cached <file_name> #(in linux.. after adding to stagging area)
+git difftool HEAD #(difference b/w previous and current version of file in staging area) OR
+git diff <file_name> #(in linux.. befor adding to staging area) OR
+git diff --cached <file_name> #(in linux.. after adding to staging area)
 
  
