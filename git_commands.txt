@@ -24,3 +24,5 @@ git checkout -- <file_name> #(to undo uncommitted changes)
 git checkout -- . #(to undo uncommitted changes in all files)
 
 git revert <commit_id> #(undo committed changes)
+
+git reset <commit_id> #(reset commits to commit_id)
