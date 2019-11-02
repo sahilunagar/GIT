@@ -20,9 +20,22 @@ git difftool HEAD #(difference b/w previous and current version of file in stagi
 git diff <file_name> #(in linux.. befor adding to staging area) OR
 git diff --cached <file_name> #(in linux.. after adding to staging area)
 
+UNDOUNG/REVERTING/RESETTING CODE:-
 git checkout -- <file_name> #(to undo uncommitted changes)
 git checkout -- . #(to undo uncommitted changes in all files)
 
 git revert <commit_id> #(undo committed changes)
 
 git reset <commit_id> #(reset commits to commit_id)
+
+BRANCH - CREATE/MERGE/DELETE BRANCH:-
+git branch #(list all the branches)
+
+git branch <branch_name> #(create new branch)
+
+git checkout <branch_name> #(switch to new_branch)
+
+git commit -am 'message' #(commit changes in new branch)
+
+git checkout master
+git merge <branch_name> #(merge new branch with main branch)
