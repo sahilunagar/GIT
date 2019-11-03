@@ -57,3 +57,4 @@ add file/folder names to .gitignore file, will be ignored fot git upsream commit
 
 MELD (diff & merge)
 git difftool origin/master #(shows difference b/w upstream and local dir in Meld tool)
+git mergetool #(to merge changes in upstream and local directory)
