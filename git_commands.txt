@@ -47,3 +47,5 @@ git checkout -b <branch_name> #(create and switch to new branch)
 git checkout master
 git branch -d <branch_name> #(delete branch)
 
+HEAD
+git show HEAD #(shows the most recent commit)
