@@ -49,3 +49,5 @@ git branch -d <branch_name> #(delete branch)
 
 HEAD
 git show HEAD #(shows the most recent commit)
+git difftool HEAD~2 HEAD~1 #(shows difference b/w 2nd last ans last commit before HEAD)
+git checkout <commit_id> #(HEAD points to perticular commit, chnages will be made to this commit)
