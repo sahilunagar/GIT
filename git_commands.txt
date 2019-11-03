@@ -55,4 +55,5 @@ git checkout <commit_id> #(HEAD points to perticular commit, chnages will be mad
 GITIGNORE
 add file/folder names to .gitignore file, will be ignored fot git upsream commit
 
+MELD
 git mergetool #(to merge changes in upstream & local directories)
